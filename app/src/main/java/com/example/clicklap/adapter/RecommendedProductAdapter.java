@@ -55,8 +55,8 @@ public class RecommendedProductAdapter extends RecyclerView.Adapter<RecommendedP
         // Load product image
         Glide.with(context)
                 .load(product.getImageUrl())
-                .placeholder(R.drawable.placeholder_image)
-                .error(R.drawable.error_image)
+                .placeholder(R.drawable.promo_placeholder)
+                .error(R.drawable.profile_place)
                 .into(holder.ivProduct);
 
         // Click listener

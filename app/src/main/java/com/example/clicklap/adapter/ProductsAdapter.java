@@ -1,5 +1,7 @@
 package com.example.clicklap.adapter;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.clicklap.FullViewProduct;
 import com.example.clicklap.Model.Product;
 import com.example.clicklap.R;
 
@@ -35,6 +38,13 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.Produc
     public void onBindViewHolder(@NonNull ProductViewHolder holder, int position) {
         Product product = productList.get(position);
         holder.bind(product);
+
+        // Saat item diklik, langsung pindah ke ProductDetailActivity
+        holder.itemView.setOnClickListener(v -> {
+            Context context = v.getContext();
+            Intent intent = new Intent(context, FullViewProduct.class);
+            context.startActivity(intent);
+        });
     }
 
     @Override
