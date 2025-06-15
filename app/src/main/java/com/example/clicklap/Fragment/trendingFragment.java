@@ -46,23 +46,23 @@ public class trendingFragment extends Fragment {
     }
 
     private void addSampleProducts() {
-        productList.add(new Product("ROG Strix Scar RTX 4090", "Rp. 37.500.200", R.drawable.product_laptop_1));
+        productList.add(new Product("ROG Strix Scar RTX ", "Rp. 37.500.200", R.drawable.product_laptop_1));
         productList.add(new Product("Product 2", "Rp. 10.000.000", R.drawable.product_laptop_1));
         productList.add(new Product("Product 3", "Rp. 15.000.000", R.drawable.product_laptop_2));
         productList.add(new Product("Product 4", "Rp. 20.000.000", R.drawable.product_laptop_3));
-        productList.add(new Product("ROG Strix Scar RTX 4090", "Rp. 37.500.200", R.drawable.product_laptop_1));
+        productList.add(new Product("ROG Strix Scar RTX ", "Rp. 37.500.200", R.drawable.product_laptop_1));
         productList.add(new Product("Product 2", "Rp. 10.000.000", R.drawable.product_laptop_1));
         productList.add(new Product("Product 3", "Rp. 15.000.000", R.drawable.product_laptop_2));
         productList.add(new Product("Product 4", "Rp. 20.000.000", R.drawable.product_laptop_3));
-        productList.add(new Product("ROG Strix Scar RTX 4090", "Rp. 37.500.200", R.drawable.product_laptop_1));
+        productList.add(new Product("ROG Strix Scar RTX ", "Rp. 37.500.200", R.drawable.product_laptop_1));
         productList.add(new Product("Product 2", "Rp. 10.000.000", R.drawable.product_laptop_1));
         productList.add(new Product("Product 3", "Rp. 15.000.000", R.drawable.product_laptop_2));
         productList.add(new Product("Product 4", "Rp. 20.000.000", R.drawable.product_laptop_3));
-        productList.add(new Product("ROG Strix Scar RTX 4090", "Rp. 37.500.200", R.drawable.product_laptop_1));
+        productList.add(new Product("ROG Strix Scar RTX ", "Rp. 37.500.200", R.drawable.product_laptop_1));
         productList.add(new Product("Product 2", "Rp. 10.000.000", R.drawable.product_laptop_1));
         productList.add(new Product("Product 3", "Rp. 15.000.000", R.drawable.product_laptop_2));
         productList.add(new Product("Product 4", "Rp. 20.000.000", R.drawable.product_laptop_3));
-        productList.add(new Product("ROG Strix Scar RTX 4090", "Rp. 37.500.200", R.drawable.product_laptop_1));
+        productList.add(new Product("ROG Strix Scar RTX ", "Rp. 37.500.200", R.drawable.product_laptop_1));
         productList.add(new Product("Product 2", "Rp. 10.000.000", R.drawable.product_laptop_1));
         productList.add(new Product("Product 3", "Rp. 15.000.000", R.drawable.product_laptop_2));
         productList.add(new Product("Product 4", "Rp. 20.000.000", R.drawable.product_laptop_3));
