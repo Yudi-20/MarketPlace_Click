@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.clicklap.R;
 
 import java.util.List;
 
@@ -38,8 +39,8 @@ public class ProductImageAdapter extends RecyclerView.Adapter<ProductImageAdapte
         // Load image using Glide (you need to add Glide dependency)
         Glide.with(context)
                 .load(imageUrl)
-                .placeholder(R.drawable.placeholder_image)
-                .error(R.drawable.error_image)
+                .placeholder(R.drawable.promo_placeholder)
+                .error(R.drawable.profile_place)
                 .into(holder.imageView);
 
         // Alternative: Set placeholder image if Glide is not available

@@ -121,11 +121,11 @@ public class FullViewProduct extends AppCompatActivity {
         }
 
         // Return sample product if no data from intent
-        return new Product("sample_id",
+        return new Product("product_1",
                 "ASUS ROG Strix G16 G615LM-I9N56C6G-HM – Eclipse Gray [Intel Core Ultra 9 Processor 275HX / NVIDIA GeForce RTX 4060 / 16GB RAM / 512GB SSD / Windows 11 Home]",
                 "Rp35.799.000",
                 "Rp39.999.000",
-                "sample_image_url",
+                "product_laptop_1",
                 4.9f,
                 11600);
     }
@@ -206,7 +206,7 @@ public class FullViewProduct extends AppCompatActivity {
             addToWishlist();
             Toast.makeText(this, "Ditambahkan ke wishlist", Toast.LENGTH_SHORT).show();
         } else {
-            btnWishlist.setImageResource(R.drawable.ic_favorite_border);
+            btnWishlist.setImageResource(R.drawable.ic_favorite_filled);
             removeFromWishlist();
             Toast.makeText(this, "Dihapus dari wishlist", Toast.LENGTH_SHORT).show();
         }
@@ -275,7 +275,7 @@ public class FullViewProduct extends AppCompatActivity {
         if (isWishlisted) {
             btnWishlist.setImageResource(R.drawable.ic_favorite_filled);
         } else {
-            btnWishlist.setImageResource(R.drawable.ic_favorite_border);
+            btnWishlist.setImageResource(R.drawable.ic_favorite_filled);
         }
     }
 
